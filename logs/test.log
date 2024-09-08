@@ -1,0 +1,628 @@
+2024-09-09 01:20:35 [TestNG-PoolService-2] INFO  base.BaseTest - Loading test data from credentials.json
+2024-09-09 01:20:35 [TestNG-PoolService-1] INFO  base.BaseTest - Loading test data from credentials.json
+2024-09-09 01:20:35 [TestNG-PoolService-0] INFO  base.BaseTest - Loading test data from credentials.json
+2024-09-09 01:20:35 [TestNG-PoolService-2] INFO  base.BaseTest - Credentials loaded successfully.
+2024-09-09 01:20:35 [TestNG-PoolService-0] INFO  base.BaseTest - Credentials loaded successfully.
+2024-09-09 01:20:35 [TestNG-PoolService-0] INFO  base.BaseTest - Test data loaded successfully.
+2024-09-09 01:20:35 [TestNG-PoolService-1] INFO  base.BaseTest - Credentials loaded successfully.
+2024-09-09 01:20:35 [TestNG-PoolService-1] INFO  base.BaseTest - Test data loaded successfully.
+2024-09-09 01:20:35 [TestNG-PoolService-2] INFO  base.BaseTest - Test data loaded successfully.
+2024-09-09 01:20:40 [TestNG-PoolService-0] INFO  base.DriverFactory - Chrome browser launched.
+2024-09-09 01:20:40 [TestNG-PoolService-2] INFO  base.DriverFactory - Chrome browser launched.
+2024-09-09 01:20:40 [TestNG-PoolService-1] INFO  base.DriverFactory - Chrome browser launched.
+2024-09-09 01:20:40 [TestNG-PoolService-0] INFO  base.DriverFactory - Browser window maximized.
+2024-09-09 01:20:40 [TestNG-PoolService-0] INFO  base.BaseTest - Test setup completed for browser: CHROME
+2024-09-09 01:20:40 [TestNG-PoolService-0] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:40 [TestNG-PoolService-0] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:40 [TestNG-PoolService-2] INFO  base.DriverFactory - Browser window maximized.
+2024-09-09 01:20:40 [TestNG-PoolService-2] INFO  base.BaseTest - Test setup completed for browser: CHROME
+2024-09-09 01:20:40 [TestNG-PoolService-2] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:40 [TestNG-PoolService-2] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:40 [TestNG-PoolService-1] INFO  base.DriverFactory - Browser window maximized.
+2024-09-09 01:20:40 [TestNG-PoolService-1] INFO  base.BaseTest - Test setup completed for browser: CHROME
+2024-09-09 01:20:40 [TestNG-PoolService-1] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:40 [TestNG-PoolService-1] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:41 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - Logging in as: dev
+2024-09-09 01:20:41 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - Username: biancunha@gmail.com
+2024-09-09 01:20:41 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - Password: 123456
+2024-09-09 01:20:41 [TestNG-PoolService-1] INFO  base.BasePage - Entering text 'biancunha@gmail.com' in element with locator: By.id: email
+2024-09-09 01:20:41 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: email
+2024-09-09 01:20:42 [TestNG-PoolService-1] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  stepDefinitions.LoginSteps - Logging in as: test
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  stepDefinitions.LoginSteps - Username: growdev@growdev.com.br
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  stepDefinitions.LoginSteps - Password: growdev123
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  base.BasePage - Entering text 'growdev@growdev.com.br' in element with locator: By.id: email
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: email
+2024-09-09 01:20:42 [TestNG-PoolService-1] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:42 [TestNG-PoolService-1] INFO  base.BasePage - Entering text '123456' in element with locator: By.id: password
+2024-09-09 01:20:42 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: password
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:42 [TestNG-PoolService-1] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  base.BasePage - Entering text 'growdev123' in element with locator: By.id: password
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: password
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:42 [TestNG-PoolService-0] INFO  stepDefinitions.LoginSteps - Logging in as: admin
+2024-09-09 01:20:42 [TestNG-PoolService-0] INFO  stepDefinitions.LoginSteps - Username: admin@admin.com
+2024-09-09 01:20:42 [TestNG-PoolService-0] INFO  stepDefinitions.LoginSteps - Password: 2020
+2024-09-09 01:20:42 [TestNG-PoolService-0] INFO  base.BasePage - Entering text 'admin@admin.com' in element with locator: By.id: email
+2024-09-09 01:20:42 [TestNG-PoolService-0] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: email
+2024-09-09 01:20:42 [TestNG-PoolService-0] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  base.BasePage - Clicking on element with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:42 [TestNG-PoolService-1] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:42 [TestNG-PoolService-1] INFO  base.BasePage - Clicking on element with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:42 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:42 [TestNG-PoolService-2] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:42 [TestNG-PoolService-1] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:42 [TestNG-PoolService-0] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:42 [TestNG-PoolService-0] INFO  base.BasePage - Entering text '2020' in element with locator: By.id: password
+2024-09-09 01:20:42 [TestNG-PoolService-0] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: password
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Checking if element is displayed with locator: By.className: home
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for visibility of element with locator: By.className: home
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Checking if element is displayed with locator: By.className: home
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for visibility of element with locator: By.className: home
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Element display status: true
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Clicking on element with locator: By.cssSelector: section#user i.fas.fa-user-circle
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for element to be clickable with locator: By.cssSelector: section#user i.fas.fa-user-circle
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Clicking on element with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Clicking on element with locator: By.xpath: //i[@class='fas fa-sign-out-alt']
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //i[@class='fas fa-sign-out-alt']
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Element display status: true
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Clicking on element with locator: By.cssSelector: section#user i.fas.fa-user-circle
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for element to be clickable with locator: By.cssSelector: section#user i.fas.fa-user-circle
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Checking if element is displayed with locator: By.className: home
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Waiting for visibility of element with locator: By.className: home
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Element display status: true
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Clicking on element with locator: By.cssSelector: section#user i.fas.fa-user-circle
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Waiting for element to be clickable with locator: By.cssSelector: section#user i.fas.fa-user-circle
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Checking if element is displayed with locator: By.tagName: h1
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for visibility of element with locator: By.tagName: h1
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Clicking on element with locator: By.xpath: //i[@class='fas fa-sign-out-alt']
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //i[@class='fas fa-sign-out-alt']
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Clicking on element with locator: By.xpath: //i[@class='fas fa-sign-out-alt']
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //i[@class='fas fa-sign-out-alt']
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Checking if element is displayed with locator: By.tagName: h1
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for visibility of element with locator: By.tagName: h1
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:43 [TestNG-PoolService-2] INFO  base.BasePage - Element display status: true
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Checking if element is displayed with locator: By.tagName: h1
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Waiting for visibility of element with locator: By.tagName: h1
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:43 [TestNG-PoolService-0] INFO  base.BasePage - Element display status: true
+2024-09-09 01:20:43 [TestNG-PoolService-1] INFO  base.BasePage - Element display status: true
+2024-09-09 01:20:44 [TestNG-PoolService-1] INFO  base.DriverFactory - Browser closed.
+2024-09-09 01:20:44 [TestNG-PoolService-1] INFO  base.BaseTest - Test teardown completed.
+2024-09-09 01:20:44 [TestNG-PoolService-1] INFO  base.BaseTest - Loading test data from credentials.json
+2024-09-09 01:20:44 [TestNG-PoolService-1] INFO  base.BaseTest - Credentials loaded successfully.
+2024-09-09 01:20:44 [TestNG-PoolService-1] INFO  base.BaseTest - Test data loaded successfully.
+2024-09-09 01:20:44 [TestNG-PoolService-0] INFO  base.DriverFactory - Browser closed.
+2024-09-09 01:20:44 [TestNG-PoolService-0] INFO  base.BaseTest - Test teardown completed.
+2024-09-09 01:20:44 [TestNG-PoolService-0] INFO  base.BaseTest - Loading test data from credentials.json
+2024-09-09 01:20:44 [TestNG-PoolService-0] INFO  base.BaseTest - Credentials loaded successfully.
+2024-09-09 01:20:44 [TestNG-PoolService-0] INFO  base.BaseTest - Test data loaded successfully.
+2024-09-09 01:20:44 [TestNG-PoolService-2] INFO  base.DriverFactory - Browser closed.
+2024-09-09 01:20:44 [TestNG-PoolService-2] INFO  base.BaseTest - Test teardown completed.
+2024-09-09 01:20:44 [TestNG-PoolService-2] INFO  base.BaseTest - Loading test data from credentials.json
+2024-09-09 01:20:44 [TestNG-PoolService-2] INFO  base.BaseTest - Credentials loaded successfully.
+2024-09-09 01:20:44 [TestNG-PoolService-2] INFO  base.BaseTest - Test data loaded successfully.
+2024-09-09 01:20:46 [TestNG-PoolService-0] INFO  base.DriverFactory - Chrome browser launched.
+2024-09-09 01:20:46 [TestNG-PoolService-1] INFO  base.DriverFactory - Chrome browser launched.
+2024-09-09 01:20:46 [TestNG-PoolService-0] INFO  base.DriverFactory - Browser window maximized.
+2024-09-09 01:20:46 [TestNG-PoolService-0] INFO  base.BaseTest - Test setup completed for browser: CHROME
+2024-09-09 01:20:46 [TestNG-PoolService-0] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:46 [TestNG-PoolService-0] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:47 [TestNG-PoolService-1] INFO  base.DriverFactory - Browser window maximized.
+2024-09-09 01:20:47 [TestNG-PoolService-1] INFO  base.BaseTest - Test setup completed for browser: CHROME
+2024-09-09 01:20:47 [TestNG-PoolService-1] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:47 [TestNG-PoolService-1] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:47 [TestNG-PoolService-2] INFO  base.DriverFactory - Chrome browser launched.
+2024-09-09 01:20:47 [TestNG-PoolService-2] INFO  base.DriverFactory - Browser window maximized.
+2024-09-09 01:20:47 [TestNG-PoolService-2] INFO  base.BaseTest - Test setup completed for browser: CHROME
+2024-09-09 01:20:47 [TestNG-PoolService-2] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:47 [TestNG-PoolService-2] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Entering text 'invalidUser' in element with locator: By.id: email
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: email
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  stepDefinitions.LoginSteps - Logging in as: admin
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  stepDefinitions.LoginSteps - Username: admin@admin.com
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  stepDefinitions.LoginSteps - Password: 2020
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Entering text 'admin@admin.com' in element with locator: By.id: email
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: email
+2024-09-09 01:20:48 [TestNG-PoolService-0] INFO  base.BasePage - Entering text '' in element with locator: By.id: email
+2024-09-09 01:20:48 [TestNG-PoolService-0] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: email
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:48 [TestNG-PoolService-0] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Entering text '2020' in element with locator: By.id: password
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: password
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Entering text 'invalidPassword' in element with locator: By.id: password
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: password
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Clicking on element with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Clicking on element with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Checking if element is displayed with locator: By.className: home
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for visibility of element with locator: By.className: home
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Checking if element is displayed with locator: By.className: home
+2024-09-09 01:20:48 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for visibility of element with locator: By.className: home
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Element display status: true
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Clicking on element with locator: By.cssSelector: section#user i.fas.fa-user-circle
+2024-09-09 01:20:48 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for element to be clickable with locator: By.cssSelector: section#user i.fas.fa-user-circle
+2024-09-09 01:20:48 [TestNG-PoolService-0] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:48 [TestNG-PoolService-0] INFO  base.BasePage - Entering text '' in element with locator: By.id: password
+2024-09-09 01:20:48 [TestNG-PoolService-0] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: password
+2024-09-09 01:20:48 [TestNG-PoolService-0] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:48 [TestNG-PoolService-0] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:48 [TestNG-PoolService-0] INFO  base.BasePage - Clicking on element with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:48 [TestNG-PoolService-0] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:48 [TestNG-PoolService-0] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:49 [TestNG-PoolService-0] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:49 [TestNG-PoolService-0] INFO  base.BasePage - Checking if element is displayed with locator: By.className: home
+2024-09-09 01:20:49 [TestNG-PoolService-0] INFO  base.BasePage - Waiting for visibility of element with locator: By.className: home
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BasePage - Clicking on element with locator: By.xpath: //i[@class='fas fa-sign-out-alt']
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //i[@class='fas fa-sign-out-alt']
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BasePage - Checking if element is displayed with locator: By.tagName: h1
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for visibility of element with locator: By.tagName: h1
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BasePage - Element display status: true
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.DriverFactory - Browser closed.
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BaseTest - Test teardown completed.
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BaseTest - Loading test data from credentials.json
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BaseTest - Credentials loaded successfully.
+2024-09-09 01:20:49 [TestNG-PoolService-2] INFO  base.BaseTest - Test data loaded successfully.
+2024-09-09 01:20:50 [TestNG-PoolService-2] INFO  base.DriverFactory - Chrome browser launched.
+2024-09-09 01:20:50 [TestNG-PoolService-2] INFO  base.DriverFactory - Browser window maximized.
+2024-09-09 01:20:50 [TestNG-PoolService-2] INFO  base.BaseTest - Test setup completed for browser: CHROME
+2024-09-09 01:20:50 [TestNG-PoolService-2] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:50 [TestNG-PoolService-2] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Entering text 'invalidUser' in element with locator: By.id: email
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: email
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Entering text 'invalidPassword' in element with locator: By.id: password
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: password
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Clicking on element with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Checking if element is displayed with locator: By.className: home
+2024-09-09 01:20:51 [TestNG-PoolService-2] INFO  base.BasePage - Waiting for visibility of element with locator: By.className: home
+2024-09-09 01:20:54 [TestNG-PoolService-1] ERROR base.BasePage - Element not visible with locator: By.className: home
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: home (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\abira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49804/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d80e83f0def96583815d3d3e869d05a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.24.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.24.0.jar:?]
+	at base.BasePage.waitForVisibilityOfElement(BasePage.java:64) ~[test-classes/:?]
+	at base.BasePage.isElementDisplayed(BasePage.java:91) ~[test-classes/:?]
+	at pages.DashboardPage.isDashboardDisplayed(DashboardPage.java:27) ~[test-classes/:?]
+	at stepDefinitions.LoginSteps.user_should_not_be_redirected_to_dashboard(LoginSteps.java:86) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-09-09 01:20:54 [TestNG-PoolService-1] WARN  base.BasePage - Element not displayed with locator: By.className: home
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: home (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\abira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49804/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d80e83f0def96583815d3d3e869d05a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.24.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.24.0.jar:?]
+	at base.BasePage.waitForVisibilityOfElement(BasePage.java:64) ~[test-classes/:?]
+	at base.BasePage.isElementDisplayed(BasePage.java:91) ~[test-classes/:?]
+	at pages.DashboardPage.isDashboardDisplayed(DashboardPage.java:27) ~[test-classes/:?]
+	at stepDefinitions.LoginSteps.user_should_not_be_redirected_to_dashboard(LoginSteps.java:86) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-09-09 01:20:54 [TestNG-PoolService-1] INFO  base.DriverFactory - Browser closed.
+2024-09-09 01:20:54 [TestNG-PoolService-1] INFO  base.BaseTest - Test teardown completed.
+2024-09-09 01:20:54 [TestNG-PoolService-1] INFO  base.BaseTest - Loading test data from credentials.json
+2024-09-09 01:20:54 [TestNG-PoolService-1] INFO  base.BaseTest - Credentials loaded successfully.
+2024-09-09 01:20:54 [TestNG-PoolService-1] INFO  base.BaseTest - Test data loaded successfully.
+2024-09-09 01:20:54 [TestNG-PoolService-0] ERROR base.BasePage - Element not visible with locator: By.className: home
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: home (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\abira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49805/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8a8c04112b65d3e2a16f43d2da01c7a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.24.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.24.0.jar:?]
+	at base.BasePage.waitForVisibilityOfElement(BasePage.java:64) ~[test-classes/:?]
+	at base.BasePage.isElementDisplayed(BasePage.java:91) ~[test-classes/:?]
+	at pages.DashboardPage.isDashboardDisplayed(DashboardPage.java:27) ~[test-classes/:?]
+	at stepDefinitions.LoginSteps.user_should_not_be_redirected_to_dashboard(LoginSteps.java:86) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-09-09 01:20:54 [TestNG-PoolService-0] WARN  base.BasePage - Element not displayed with locator: By.className: home
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: home (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\abira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49805/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8a8c04112b65d3e2a16f43d2da01c7a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.24.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.24.0.jar:?]
+	at base.BasePage.waitForVisibilityOfElement(BasePage.java:64) ~[test-classes/:?]
+	at base.BasePage.isElementDisplayed(BasePage.java:91) ~[test-classes/:?]
+	at pages.DashboardPage.isDashboardDisplayed(DashboardPage.java:27) ~[test-classes/:?]
+	at stepDefinitions.LoginSteps.user_should_not_be_redirected_to_dashboard(LoginSteps.java:86) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-09-09 01:20:55 [TestNG-PoolService-1] INFO  base.DriverFactory - Chrome browser launched.
+2024-09-09 01:20:55 [TestNG-PoolService-1] INFO  base.DriverFactory - Browser window maximized.
+2024-09-09 01:20:55 [TestNG-PoolService-1] INFO  base.BaseTest - Test setup completed for browser: CHROME
+2024-09-09 01:20:55 [TestNG-PoolService-1] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:55 [TestNG-PoolService-1] INFO  base.BasePage - WebDriver and WebDriverWait initialized.
+2024-09-09 01:20:56 [TestNG-PoolService-0] INFO  base.DriverFactory - Browser closed.
+2024-09-09 01:20:56 [TestNG-PoolService-0] INFO  base.BaseTest - Test teardown completed.
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Entering text '' in element with locator: By.id: email
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: email
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Entering text '' in element with locator: By.id: password
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for visibility of element with locator: By.id: password
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Element is visible.
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Text entered successfully.
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Clicking on element with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for element to be clickable with locator: By.xpath: //input[@value='LOGIN']
+2024-09-09 01:20:56 [TestNG-PoolService-2] ERROR base.BasePage - Element not visible with locator: By.className: home
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: home (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\abira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49914/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17b005bcaf6633d9705ebec661c8f158
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.24.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.24.0.jar:?]
+	at base.BasePage.waitForVisibilityOfElement(BasePage.java:64) ~[test-classes/:?]
+	at base.BasePage.isElementDisplayed(BasePage.java:91) ~[test-classes/:?]
+	at pages.DashboardPage.isDashboardDisplayed(DashboardPage.java:27) ~[test-classes/:?]
+	at stepDefinitions.LoginSteps.user_should_not_be_redirected_to_dashboard(LoginSteps.java:86) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-09-09 01:20:56 [TestNG-PoolService-2] WARN  base.BasePage - Element not displayed with locator: By.className: home
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: home (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\abira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49914/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17b005bcaf6633d9705ebec661c8f158
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.24.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.24.0.jar:?]
+	at base.BasePage.waitForVisibilityOfElement(BasePage.java:64) ~[test-classes/:?]
+	at base.BasePage.isElementDisplayed(BasePage.java:91) ~[test-classes/:?]
+	at pages.DashboardPage.isDashboardDisplayed(DashboardPage.java:27) ~[test-classes/:?]
+	at stepDefinitions.LoginSteps.user_should_not_be_redirected_to_dashboard(LoginSteps.java:86) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Element is clickable.
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Element clicked successfully.
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Checking if element is displayed with locator: By.className: home
+2024-09-09 01:20:56 [TestNG-PoolService-1] INFO  base.BasePage - Waiting for visibility of element with locator: By.className: home
+2024-09-09 01:20:57 [TestNG-PoolService-2] INFO  base.DriverFactory - Browser closed.
+2024-09-09 01:20:57 [TestNG-PoolService-2] INFO  base.BaseTest - Test teardown completed.
+2024-09-09 01:21:02 [TestNG-PoolService-1] ERROR base.BasePage - Element not visible with locator: By.className: home
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: home (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\abira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49944}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49944/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fb745eeea9fdbd6bc51ccbf53351dc6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.24.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.24.0.jar:?]
+	at base.BasePage.waitForVisibilityOfElement(BasePage.java:64) ~[test-classes/:?]
+	at base.BasePage.isElementDisplayed(BasePage.java:91) ~[test-classes/:?]
+	at pages.DashboardPage.isDashboardDisplayed(DashboardPage.java:27) ~[test-classes/:?]
+	at stepDefinitions.LoginSteps.user_should_not_be_redirected_to_dashboard(LoginSteps.java:86) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-09-09 01:21:02 [TestNG-PoolService-1] WARN  base.BasePage - Element not displayed with locator: By.className: home
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: home (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\abira\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49944}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49944/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fb745eeea9fdbd6bc51ccbf53351dc6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.24.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.24.0.jar:?]
+	at base.BasePage.waitForVisibilityOfElement(BasePage.java:64) ~[test-classes/:?]
+	at base.BasePage.isElementDisplayed(BasePage.java:91) ~[test-classes/:?]
+	at pages.DashboardPage.isDashboardDisplayed(DashboardPage.java:27) ~[test-classes/:?]
+	at stepDefinitions.LoginSteps.user_should_not_be_redirected_to_dashboard(LoginSteps.java:86) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.1.jar:7.18.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-09-09 01:21:02 [TestNG-PoolService-1] INFO  base.DriverFactory - Browser closed.
+2024-09-09 01:21:02 [TestNG-PoolService-1] INFO  base.BaseTest - Test teardown completed.

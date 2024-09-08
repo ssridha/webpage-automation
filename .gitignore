@@ -1,0 +1,58 @@
+target
+target/bdd-parallel-test-1.0-SNAPSHOT.jar
+target/cucumber-reports.html
+target/cucumber.json
+target/maven-archiver/pom.properties
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+target/surefire-reports/bullet_point.png
+target/surefire-reports/collapseall.gif
+target/surefire-reports/emailable-report.html
+target/surefire-reports/failed.png
+target/surefire-reports/index.html
+target/surefire-reports/jquery-3.6.0.min.js
+target/surefire-reports/navigator-bullet.png
+target/surefire-reports/passed.png
+target/surefire-reports/skipped.png
+target/surefire-reports/TEST-TestSuite.xml
+target/surefire-reports/testng-reports.css
+target/surefire-reports/testng-reports.js
+target/surefire-reports/testng-reports1.css
+target/surefire-reports/testng-reports2.js
+target/surefire-reports/testng-results.xml
+target/surefire-reports/testng.css
+target/surefire-reports/TestSuite.txt
+target/surefire-reports/Parallel Cucumber Test Suite/Cucumber Tests.html
+target/surefire-reports/Parallel Cucumber Test Suite/Cucumber Tests.xml
+target/surefire-reports/junitreports/TEST-runners.TestRunner.xml
+target/surefire-reports/old/index.html
+target/surefire-reports/old/Parallel Cucumber Test Suite/classes.html
+target/surefire-reports/old/Parallel Cucumber Test Suite/Cucumber Tests.properties
+target/surefire-reports/old/Parallel Cucumber Test Suite/groups.html
+target/surefire-reports/old/Parallel Cucumber Test Suite/index.html
+target/surefire-reports/old/Parallel Cucumber Test Suite/main.html
+target/surefire-reports/old/Parallel Cucumber Test Suite/methods-alphabetical.html
+target/surefire-reports/old/Parallel Cucumber Test Suite/methods-not-run.html
+target/surefire-reports/old/Parallel Cucumber Test Suite/methods.html
+target/surefire-reports/old/Parallel Cucumber Test Suite/reporter-output.html
+target/surefire-reports/old/Parallel Cucumber Test Suite/testng.xml.html
+target/surefire-reports/old/Parallel Cucumber Test Suite/toc.html
+target/test-classes/log4j2.xml
+target/test-classes/base/BasePage.class
+target/test-classes/base/BaseTest.class
+target/test-classes/base/DriverFactory.class
+target/test-classes/base/DriverFactory$BrowserType.class
+target/test-classes/config/dev.properties
+target/test-classes/config/driver.properties
+target/test-classes/config/prod.properties
+target/test-classes/config/qa.properties
+target/test-classes/drivers/chromedriver.exe
+target/test-classes/drivers/msedgedriver.exe
+target/test-classes/features/Login.feature
+target/test-classes/pages/DashboardPage.class
+target/test-classes/pages/LoginPage.class
+target/test-classes/runners/TestRunner.class
+target/test-classes/stepDefinitions/LoginSteps.class
+target/test-classes/testdata/credentials.json
+target/test-classes/utils/ConfigManager.class
