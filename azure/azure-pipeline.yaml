@@ -1,0 +1,53 @@
+# Azure Pipeline for Web Page Parallel Test Automation
+
+trigger:
+  branches:
+    include:
+      - main  # Trigger pipeline on commits to the main branch
+
+pool:
+  vmImage: 'ubuntu-latest'  # Use the latest Ubuntu VM for the build agent
+
+stages:
+  - stage: Build
+    jobs:
+      - job: Build
+        steps:
+          # Step 1: Checkout the code from the repository
+          - task: Checkout@1
+            inputs:
+              clean: true
+
+          # Step 2: Set up JDK 11 (Java 11)
+          - task: UseJava@1
+            inputs:
+              versionSpec: '11'
+              jdkArchitectureOption: 'x64'
+            displayName: 'Install Java'
+
+          # Step 3: Set up Maven
+          - task: Maven@3
+            inputs:
+              mavenPomFile: 'pom.xml'
+              goals: 'clean install'
+              javaHomeOption: 'JDKVersion'
+              jdkVersionOption: '1.11'
+              mavenVersionOption: 'Default'
+            displayName: 'Install Maven'
+
+          # Step 4: Run the Tests
+          - script: |
+              mvn clean test"
+            displayName: 'Run All Tests'
+
+          # Step 5: Run Tests with Specific Tags
+          - script: |
+              mvn clean test -Dcucumber.filter.tags="@smoke"
+            displayName: 'Run Smoke Tests'
+
+          # Step 6: Publish Cucumber HTML Reports
+          - task: PublishPipelineArtifact@1
+            inputs:
+              targetPath: 'target/cucumber-reports'
+              artifact: 'CucumberReports'
+              publishLocation: 'pipeline'
